@@ -1,0 +1,2135 @@
+/* 
+Background Colors
+#ffffff      #fdf6ec          #88b04b       #88b04b24       #403e3c
+
+Text Colors 
+#ffffff        #fdf6ec      #ccd6df     #88b04b     #909090     #403e3c     #000000
+
+Fill Colors
+#ffffff         #88b04b         #000000
+
+Border Colors 
+#ffffffad           #eeeeee             #88b04b         #909090         #00000033
+
+
+Font:  Montserrat, san-serif and Time New Roman.
+
+*/
+
+/* -------------------------------------- Header ----------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hamburger,
+.cross-icon,
+.slick-dots {
+  display: none;
+}
+
+.container1 {
+  /* width: 98.57%; */
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin: 0 auto; */
+}
+
+header {
+  width: 100%;
+  /* max-width: Min(100%, 1160px, 1140px); */
+  max-width: Min(100%, 1212px, 1171px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  /* margin-bottom: 27px; */
+
+  /* margin: 0 95px; */
+  /* margin: 0 94px 0 95px; */
+}
+
+.logo {
+  height: 52.422px;
+  width: 120px;
+  margin-right: 7px;
+  /* margin-left: 15px; */
+  /* margin-right: 145px; */
+}
+
+li {
+  list-style-type: none;
+  color: #403e3c;
+  cursor: pointer;
+}
+
+.nav-menu {
+  margin-bottom: 2px;
+  width: 41.7%;
+}
+
+.nav-menu ul {
+  display: flex;
+  /* gap: 19px; */
+  align-items: center;
+  justify-content: space-between;
+  /* padding-bottom: 10px; */
+}
+
+.nav-menu ul > li {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 500;
+  /* margin-right: 20px; */
+}
+
+.down-arrow {
+  width: 9.5%;
+  /* max-height: ; */
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.buttons {
+  display: flex;
+  /* margin-left: 136px; */
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 16px;
+}
+
+.special {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-right: 13px !important; */
+  width: 100px;
+}
+.select {
+  color: #88b04b;
+  /* margin-right: 20px !important; */
+}
+
+.type1 {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #424140;
+  padding: 15px 31px 15px 30px;
+  border: 1px solid #88b04b;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.type1:hover,
+.type2:hover {
+  background-color: #88b04b;
+  color: #ffffff;
+}
+
+.type2 {
+  border: 1px solid #88b04b;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 13px 13px 13px 12px;
+  /* margin-left: 15px; */
+  margin-left: 20px;
+}
+
+.type2 img {
+  width: 75%;
+}
+
+/* -------------------------------------- Hero Section ----------------------------------- */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 138px;
+  /* margin-top: 140px; */
+  height: 628.9px;
+  margin-bottom: 1px;
+}
+.hero-img {
+  height: 628.9px;
+}
+
+.hero-img img {
+  width: 673px;
+  height: 628.9px;
+}
+
+.hero h2 {
+  font-size: 50px;
+  line-height: 50px;
+  color: #403e3c;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #403e3c;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+
+.font14 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.end {
+  padding-bottom: 1px !important;
+}
+
+.first-hero {
+  padding: 0 133px 0 135px;
+  padding-top: 2px;
+  /* padding-bottom: 2px; */
+}
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #00000033;
+  border-radius: 50px;
+  padding: 5px 0px;
+  margin-bottom: 16px;
+  width: 405px;
+  height: 56px;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 5px;
+}
+
+.search-box input {
+  height: 45px;
+  width: 300px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  font-family: "Montserrat", sans-serif;
+  color: #403e3c;
+  line-height: 18px;
+
+  padding-left: 3px;
+  padding-bottom: 1px;
+}
+
+.search-box button > img {
+  height: 58%;
+  /* padding-top: 4px;
+  padding-left: 2px; */
+
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+}
+
+.search-box button {
+  border: 1px solid #88b04b;
+  border-radius: 100%;
+  background-color: #88b04b;
+  margin-left: 20px;
+}
+
+/* -------------------------------------- Top Categories ----------------------------------- */
+
+.Top-Categories,
+.top-authors {
+  background-color: #fdf6ec;
+  padding-top: 68px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.head-categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 25px;
+  /* margin-bottom: 50px; */
+  margin-bottom: 55px;
+  margin-top: 12px;
+
+  padding-left: 28px;
+  padding-right: 27px;
+}
+
+.head-categories h3,
+.head-topAuthors h3 {
+  font-size: 35px;
+  color: #403e3c;
+  font-weight: 600;
+  /* padding-right: 1px; */
+}
+
+.pad-right {
+  margin-right: 1px;
+}
+
+.mid-categories,
+.mid-topAuthor,
+.last-topAuthor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  text-align: center;
+  margin-bottom: 50px;
+
+  padding-left: 2px;
+  margin-bottom: 45px;
+}
+
+.mid-categories img,
+.mid-topAuthor img,
+.last-topAuthor img {
+  width: 170px;
+  max-width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.mid-categories p,
+.mid-topAuthor p,
+.last-topAuthor p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #403e3c;
+}
+
+.view-btn {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #88b04b;
+  border: 1px solid #88b04b;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 0;
+  /* margin-bottom: 82px; */
+  margin-bottom: 80px;
+  font-family: "Montserrat", sans-serif;
+  width: 166.016px;
+  height: 47px;
+  padding-left: 1px;
+}
+
+.view-btn img {
+  width: 10%;
+}
+
+.view-btn:hover {
+  background-color: #ffffff;
+  color: #403e3c;
+  border: 1px solid #88b04b;
+}
+
+/* -------------------------------------- Top Recipes ----------------------------------- */
+
+.top-recipes {
+  /* margin-top: 82px; */
+  margin-top: 76px;
+  /* margin-bottom: 144px; */
+  margin-bottom: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head-recipes {
+  width: 85.86%;
+  display: flex;
+  justify-content: space-between;
+  gap: 410px;
+  /* margin-bottom: 60px; */
+  margin-bottom: 57px;
+  align-items: flex-end;
+  /* margin-left: 94px;
+  margin-right: 94px; */
+}
+.head-recipes h3 {
+  font-size: 35px;
+  color: #403e3c;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.nav-recipes ul {
+  display: flex;
+  padding-bottom: 3px;
+}
+.nav-recipes ul > li {
+  padding-bottom: 8px;
+}
+#bottom-border {
+  width: 149.828px;
+  text-align: center;
+  border-bottom: 1px solid #88b04b;
+}
+
+.add {
+  width: 68px;
+  border-bottom: 1px solid #00000033;
+  text-align: center;
+}
+
+.mid-recipes {
+  display: flex;
+  /* margin: 0 94px 0 95px; */
+  width: 85.86%;
+  gap: 20px;
+}
+
+.selected {
+  width: 50%;
+}
+
+.selected > img {
+  border-radius: 10px;
+  /* height: 310px;
+  width: 570px; */
+  width: 100%;
+  max-width: 100%;
+  height: 310px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+.selected h5 {
+  font-size: 18px;
+  color: #403e3c;
+  font-weight: 600;
+  /* margin-bottom: 18px; */
+  margin-bottom: 16px;
+}
+
+.card {
+  width: 183.328px;
+  height: 164px;
+  margin-right: 20px;
+  /* margin-bottom: 20px; */
+}
+
+/* .pad-top {
+  margin-top: 4px;
+} */
+
+.rate-review {
+  display: flex;
+  /* align-items: flex-start; */
+  align-items: center;
+  /* margin-bottom: 20px; */
+  gap: 19px;
+  margin-bottom: 13px;
+}
+
+.rate-review p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: italic;
+  color: #403e3c;
+}
+
+.selected > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #403e3c;
+  /* padding-right: 10px; */
+  line-height: 24px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.socialmedia {
+  width: 15.4%;
+  margin-right: 20px;
+  padding-top: 4px;
+}
+
+.time-people,
+.knife-co,
+.cooker-co,
+.color-pallet {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.time-people {
+  /* width: 481px; */
+  /* gap: 4px; */
+  margin-bottom: 12px !important;
+}
+
+.time-people p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #403e3c;
+}
+
+/* .time-people-small p {
+   margin-right: 4px; 
+  height: 26px; 
+}
+*/
+.color-pallet img {
+  width: 10.8%;
+}
+
+.knife-co img {
+  width: 16%;
+}
+
+.knife-co-small img,
+.cooker-co-small img {
+  width: 13.3% !important;
+}
+
+.cooker-co img {
+  width: 15.5%;
+}
+
+.author > img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.list-recipes {
+  width: 50%;
+}
+
+.last-recipe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 35px; */
+}
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: #403e3c;
+}
+
+.time-people-small {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* gap: 10px; */
+  margin-bottom: 8px;
+  height: 26px;
+  width: 367px;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  padding: 10px 0;
+}
+
+.card1 {
+  margin-bottom: 2px;
+}
+
+.detail h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  color: #403e3c;
+  /* margin-bottom: 15px; */
+  /* margin-bottom: 13px; */
+  margin-bottom: 11px;
+}
+
+.rate-review-small {
+  display: flex;
+  /* align-items: flex-start; */
+  align-items: center;
+  /* margin-bottom: 10px; */
+  margin-bottom: 14px;
+  gap: 22px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.rate-review-small img {
+  width: 30.3%;
+}
+
+.rate-review-small p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: italic;
+  color: #403e3c;
+}
+
+.time-people-small {
+  font-size: 14px;
+  font-weight: 400;
+  color: #403e3c;
+  margin-bottom: 20px;
+}
+
+.socialmedia-small {
+  width: 25%;
+}
+
+.socialmedia-small2 {
+  width: 28%;
+  padding-top: 2px;
+}
+/* 
+.pad-top-large {
+  margin-top: 13px;
+} */
+
+/* -------------------------------------- Recipe Week ----------------------------------- */
+
+.recipes-week {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.recipes-week h3,
+.featured-recipes h3,
+.article h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #403e3c;
+  text-align: center;
+  /* margin-bottom: 25px; */
+  margin-bottom: 26px;
+}
+
+.one-list > img,
+.two-list > img,
+.three-list > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.one-list,
+.two-list,
+.three-list {
+  width: 33.33%;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+}
+
+.pad-list > p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #403e3c;
+}
+.three-recipes {
+  display: flex;
+  /* margin: 0 95px; */
+  width: 85.86%;
+  flex-wrap: nowrap;
+  max-width: 1160px;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+.pad-list {
+  padding: 28px 23px 35px 24px;
+
+  padding-top: 28px;
+  padding-bottom: 35px;
+}
+
+.rate-review-week {
+  display: flex;
+  align-items: center;
+  /* gap: 25px; */
+  gap: 20px;
+  /* margin: 15px 0; */
+  margin-top: 13px;
+  margin-bottom: 23px;
+}
+
+.rate-review-week > p {
+  font-style: italic;
+  color: #403e3c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rate-review-week > img {
+  width: 30.7%;
+}
+
+.text-description {
+  color: #403e3c !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+  margin-bottom: 15px;
+}
+
+.time-serve > p {
+  color: #403e3c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.time-serve > p > b {
+  color: #403e3c;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.time-serve {
+  padding: 15px 0 10px 0;
+  border-top: 2px dashed #909090;
+  border-bottom: 2px dashed #909090;
+  /* margin-bottom: 40px; */
+  margin-top: 20px;
+
+  /* margin-bottom: 32px; */
+  margin-bottom: 30px;
+}
+
+.author-social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+
+  margin-bottom: 7px;
+}
+
+.author-week {
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+  gap: 4px;
+}
+
+.author-week > img {
+  /* width: 17%; */
+  width: 17.5%;
+  border-radius: 100%;
+}
+
+.author-flex {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+}
+
+.show-btn {
+  color: #403e3c;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #88b04b;
+  border-radius: 50px;
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+  /* padding: 13px 0; */
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  width: 171.4px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.show-btn img {
+  /* width: 10%; */
+  width: 9%;
+}
+
+.show-btn:hover {
+  background-color: #ffffff;
+  color: #403e3c;
+}
+
+/* -------------------------------------- Featured Recipes ----------------------------------- */
+
+.featured-recipes {
+  /* margin-top: 112px; */
+  margin-top: 106px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.box-1,
+.box-2 {
+  display: flex;
+  /* margin: 0 95px; */
+  width: 85.86%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 19px;
+  gap: 20px;
+}
+
+.cook-serves {
+  display: flex;
+  gap: 10px;
+}
+
+.end-socialIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialmedia {
+  width: 15.4%;
+  margin-right: 20px;
+  padding-top: 4px;
+}
+
+.feature {
+  width: 275.65px;
+  /* width: 276px; */
+  /* height: 458px; */
+  border: 1px solid #00000033;
+  border-radius: 15px;
+  border-radius: 10px;
+  height: 435px;
+}
+
+.pad-feature {
+  padding: 20px 20px;
+}
+
+.pad-feature > p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  color: #403e3c;
+}
+
+.star-feature {
+  display: flex;
+  margin-bottom: 25px;
+  /* margin-top: 20px; */
+  margin-top: 11px;
+  gap: 22px;
+  align-items: center;
+}
+
+.star-feature > img {
+  width: 45% !important;
+}
+
+.star-feature > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: italic;
+  color: #403e3c;
+}
+
+.clock-co {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 10px;
+  margin-bottom: 38px;
+  margin-bottom: 32px;
+}
+
+.clock-co > img {
+  width: 14%;
+  max-width: 31.406px;
+  max-height: 18px;
+}
+
+.clock-co > p {
+  color: #403e3c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.socialmedia-medium {
+  width: 35%;
+}
+
+.show-more-btn {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+/* -------------------------------------- Top Authors ----------------------------------- */
+
+.top-authors {
+  background-color: #88b04b24;
+  padding-top: 16px;
+  width: 100%;
+}
+
+.head-topAuthors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  /* margin-bottom: 50px; */
+  margin-bottom: 55px;
+  margin-top: 12px;
+
+  width: 85.86%;
+  /* 
+  padding-left: 95px;
+  padding-right: 95px; */
+}
+
+.up {
+  padding-bottom: 80px;
+  /* padding-left: 3px; */
+}
+
+.down {
+  padding-top: 33px;
+  /* padding-right: 5px; */
+}
+
+.up2 {
+  padding-bottom: 16px;
+}
+
+.down2 {
+  padding-top: 34px;
+}
+
+.down3 {
+  padding-top: 48px;
+}
+
+.mid-topAuthor,
+.last-topAuthor {
+  /* margin-left: 90px;
+  margin-right: 95px; */
+
+  margin-left: 99px;
+  margin-right: 101px;
+  align-items: flex-start;
+  /* gap: 24px; */
+  padding-left: 0px !important;
+  padding-top: 2px;
+}
+.mid-topAuthor {
+  margin-bottom: 14px;
+}
+
+.mid-topAuthor > div {
+  width: 176.6px;
+}
+
+.mid-topAuthor img,
+.last-topAuthor img {
+  margin-bottom: 0px;
+}
+
+.last-topAuthor {
+  justify-content: flex-start !important;
+  margin-bottom: 73px;
+  /* margin-left: 77px;
+  gap: 40px;
+  padding-top: 0; */
+}
+
+/* -------------------------------------- How it Works Section ----------------------------------- */
+
+.work {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  width: 85.86%;
+  margin: 0 auto;
+  /* margin: 0 95px; */
+  /* padding-top: 120px; */
+
+  padding-top: 100px;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 105px; */
+  margin-bottom: 115px;
+}
+
+.first-work {
+  /* width: 257px !important; */
+  width: 28% !important;
+  height: 419px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.first-work h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+  color: #403e3c;
+}
+
+.first-work p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 31px;
+  color: #403e3c;
+  margin-bottom: 20px;
+}
+.first-work p > span {
+  color: #88b04b;
+  cursor: pointer;
+}
+
+.work-btn {
+  color: #403e3c;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid #88b04b;
+  border-radius: 50px;
+  display: flex;
+  gap: 10px;
+  padding: 13px 0;
+  justify-content: center;
+  align-items: center;
+  width: 177px;
+  height: 47px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1px;
+}
+
+.work-btn img {
+  width: 9%;
+  margin-bottom: 2px;
+}
+
+.second-work {
+  display: flex;
+  border: 1px solid #00000033;
+  border-radius: 20px;
+  /* height: 368px; */
+  width: 100%;
+  max-width: Min(100%, 1160px, 1140px);
+  margin-bottom: 2px;
+}
+
+.second-work div {
+  padding: 40px;
+  width: 294.9px;
+  /* height: 365px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 39px;
+  padding-right: 37px;
+}
+
+.second-work h3 {
+  font-size: 23px;
+  line-height: 33px;
+  font-weight: 600;
+  color: #403e3c;
+  padding-top: 20px;
+}
+
+.second-work p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #403e3c;
+}
+
+.recipe-rated {
+  padding: 40px 30px !important;
+  border-left: 1px solid #00000033;
+  border-right: 1px solid #00000033;
+}
+
+.recipe-work {
+  /* width: 292.9px !important; */
+  /* width: 294.9px !important; */
+  width: 33.33% !important;
+  /* height: 370px; */
+}
+.recipe-rated {
+  /* width: 298.9px !important; */
+  /* width: 297.9px !important; */
+  width: 33.33% !important;
+}
+
+.recipe-rated h3 {
+  padding-top: 20px !important;
+}
+.recipe-rated p {
+  padding-bottom: 3px;
+}
+
+/* -------------------------------------- Article Section ----------------------------------- */
+
+.article {
+  /* margin: 0 95px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.first-article,
+.second-article {
+  display: flex;
+  justify-content: center;
+  width: 85.86%;
+  gap: 15px;
+  /* align-items: baseline; */
+}
+.first-article {
+  height: 392px !important;
+  margin-bottom: 12px;
+}
+.second-article {
+  height: 394px !important;
+  margin-bottom: 40px;
+}
+
+.article h3 {
+  /* margin-bottom: 6px; */
+  margin-bottom: 26px;
+}
+
+.article p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #403e3c;
+  margin-bottom: 42px;
+}
+.article span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #403e3c;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.article span > img {
+  width: 2.2%;
+}
+.article1 {
+  width: 765.6px;
+  height: 357px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+.article1 > img {
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.article2 {
+  width: 373.3px;
+  height: 384px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+}
+.article2 > img {
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottom {
+  padding: 28px 24px;
+}
+
+.green-arrow {
+  width: 5% !important;
+}
+
+.article2 {
+  /* margin-top: 20px; */
+  margin-bottom: 52px;
+}
+
+.article > button {
+  margin-bottom: 100px;
+}
+
+/* -------------------------------------- Contact US Section ----------------------------------- */
+
+.contact-us {
+  margin: 0 138px;
+  padding: 105px 0 20px 0;
+  text-align: center;
+  border-top: 1px solid #00000033;
+  padding-top: 100px;
+  padding-bottom: 18px;
+}
+
+.contact-us h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #403e3c;
+
+  letter-spacing: 2.8px;
+  margin-bottom: 20px;
+}
+
+.contact-us h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #403e3c;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #403e3c;
+  margin: 0 261px;
+  margin-bottom: 40px;
+}
+
+.contact-btn {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #88b04b;
+  border: transparent;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 46px;
+  margin-bottom: 82px;
+}
+
+/* -------------------------------------- Footer ----------------------------------- */
+
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #403e3c;
+  align-items: center;
+}
+
+footer {
+  background-color: #403e3c;
+  width: 84%;
+  height: 370px;
+  color: #ffffff;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* padding: 110px 75px 0 105px; */
+  padding-top: 107px;
+}
+
+footer li {
+  color: #ffffff !important;
+}
+
+.foot-logo {
+  width: 114px;
+  height: 52px;
+  margin-top: 3px;
+}
+
+.foot-social {
+  /* width: 240px; */
+  width: 248px;
+  /* height: 36px; */
+}
+
+.link-more {
+  display: flex;
+  flex-direction: column;
+  width: 678px;
+  height: 140px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 28px;
+  margin-top: 3px;
+}
+
+.links-page ul,
+.more ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.links-page ul > li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.more ul > li {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.more {
+  margin-bottom: 30px;
+}
+
+.link-more > p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 1px;
+}
+
+/* ---------------------------------  Media Queries --------------------------- */
+
+@media (max-width: 1240px) {
+  .container1 {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header {
+    max-width: Min(100%, 1160px, 1140px);
+    margin: 0 auto;
+    width: 92%;
+  }
+
+  .nav-menu {
+    width: 50%;
+  }
+
+  .hero-img {
+    width: 50%;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .first-hero {
+    padding: 0 110px;
+    width: 50%;
+  }
+
+  /* .article {
+    margin: 0px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .first-article,
+  .second-article {
+    width: 98%;
+  }
+
+  .head-topAuthors {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .top-authors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-topAuthor,
+  .last-topAuthor {
+    margin-left: 0;
+    margin-right: 0;
+    width: 95%;
+  }
+
+  .mid-categories,
+  .mid-topAuthor,
+  .last-topAuthor {
+    gap: 0;
+    justify-content: space-evenly;
+  }
+
+  .last-topAuthor {
+    gap: 15px;
+  }
+  .box-1,
+  .box-2 {
+    width: 92%;
+  }
+  .head-recipes {
+    width: 90%;
+    gap: 0px;
+  }
+  .mid-recipes {
+    width: 90%;
+  }
+  .time-people-small {
+    width: 100%;
+  }
+  .three-recipes {
+    width: 90%;
+    /* max-width: calc(100% / 3); */
+  }
+  /* .one-list,
+  .two-list,
+  .three-list {
+    max-width: calc(100% / 3);
+  } */
+  .work {
+    width: 95%;
+  }
+  footer {
+    width: 97%;
+  }
+  .link-more {
+    margin-left: 0;
+  }
+}
+
+/* --------------------------- Media Query for Laptops -------------------------- */
+
+@media (max-width: 1024px) {
+  header {
+    padding-top: 25px;
+  }
+  .container1 {
+    align-items: flex-end;
+    gap: 20px;
+    padding-left: 25px;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 10%;
+    margin-bottom: 3px;
+  }
+  .cross-icon {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  .select {
+    color: #403e3c;
+  }
+  .nav-menu {
+    height: 100%;
+    padding: 35px;
+    position: fixed;
+    right: -100%;
+
+    /* top: 3.5rem; */
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    right: 0;
+    top: 0;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .nav-menu ul li {
+    padding: 10px 0;
+  }
+
+  /* ----------------- Hero Section ------------------- */
+  .space-add {
+    width: 100%;
+    height: 200px;
+  }
+  .hero-img {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 6vw;
+  }
+
+  .first-hero {
+    width: 80%;
+    padding: 0;
+  }
+  .search-box {
+    width: 100%;
+  }
+
+  /* ----------------- Top Recipes ------------------- */
+  .top-recipes {
+    margin-bottom: 75px;
+  }
+  .head-recipes {
+    width: 94%;
+  }
+
+  .head-recipes h3 {
+    font-size: 30px;
+  }
+
+  .mid-recipes {
+    flex-direction: column;
+    width: 93%;
+  }
+  .selected {
+    width: 100%;
+  }
+
+  .socialmedia {
+    width: 10.4%;
+    margin-right: 0px;
+    padding-top: 4px;
+  }
+
+  .list-recipes {
+    width: 100%;
+  }
+  .card {
+    /* width: 314px; */
+    width: 34%;
+    height: 163px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .rate-review-small img {
+    width: 18.3%;
+  }
+  .detail {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .socialmedia-small {
+    width: 15%;
+  }
+  .time-people-small {
+    margin-bottom: 8px;
+  }
+
+  /* ----------------- Recipes Week ------------------- */
+
+  .recipes-week h3,
+  .featured-recipes h3,
+  .article h3 {
+    font-size: 30px;
+  }
+
+  .three-recipes {
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: flex-start;
+  }
+
+  .one-list,
+  .two-list,
+  .three-list {
+    width: 49%;
+  }
+
+  .pad-list > p {
+    font-size: 16px;
+  }
+
+  /* ----------------- Featured Recipes ------------------- */
+  .box-1,
+  .box-2 {
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  .feature {
+    width: 48%;
+    height: max-content;
+  }
+  .star-feature > img {
+    width: 28% !important;
+  }
+  .socialmedia-medium {
+    width: 20%;
+  }
+  .author-flex {
+    flex-direction: row;
+    gap: 5px;
+    padding: 10px 0;
+  }
+  .show-btn {
+    margin-top: 40px;
+  }
+
+  /* ----------------- Top Authors  ------------------- */
+
+  .head-topAuthors {
+    width: 94%;
+  }
+  .head-topAuthors > img {
+    width: 6%;
+  }
+
+  .mid-topAuthor,
+  .last-topAuthor {
+    width: 94%;
+    flex-wrap: wrap;
+  }
+  .last-topAuthor {
+    gap: 0px;
+    margin-bottom: 65px;
+  }
+  .mid-topAuthor > div,
+  .last-topAuthor > div {
+    width: 33.33333%;
+    padding: 10px;
+  }
+
+  .view-btn {
+    margin-bottom: 70px;
+  }
+
+  /* ----------------- How it works ------------------- */
+
+  .work {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .first-work {
+    width: 100% !important;
+    height: max-content;
+    padding: 10px;
+    gap: 20px;
+  }
+  .first-work p {
+    margin-bottom: 20px;
+  }
+
+  .contact-us {
+    margin: 0 auto;
+    width: 58%;
+  }
+
+  .contact-us p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /*  ------------------- Footer ---------------------- */
+  footer {
+    flex-direction: column;
+    padding: 80px 0;
+    height: 498px;
+    align-items: center;
+  }
+
+  .foot-social {
+    order: 1;
+  }
+  .link-more {
+    order: 2;
+    margin-bottom: 18px;
+  }
+}
+
+/* --------------------------- Media Query for Tablets -------------------------- */
+@media (max-width: 767px) {
+  header {
+    padding: 17px 0 15px 0;
+  }
+  .container1 {
+    align-items: center;
+    padding-left: 18px;
+  }
+  .buttons {
+    margin: 0 15px 0 0;
+  }
+  .logo {
+    width: 70px;
+    height: 30.578px;
+    margin-left: 8px;
+  }
+
+  .type1 {
+    padding: 1px 15px;
+    font-size: 12px;
+    padding-top: 2px;
+  }
+  .type2 {
+    font-size: 12px;
+    padding: 7px 9px 7px 9px;
+    margin-left: 5px;
+  }
+
+  .type2 img {
+    width: 1em;
+    height: auto;
+  }
+  .hamburger {
+    width: 9%;
+    margin-bottom: 0;
+  }
+  .hamburger svg {
+    width: 29px;
+    margin-top: 5.353px;
+    margin-bottom: 0px;
+  }
+  .space-add {
+    width: 100%;
+    height: 231px;
+    max-width: 767px;
+    max-height: 331px;
+  }
+
+  /* --------------------------- Hero section -------------------------- */
+  .hero {
+    padding: 0 0 8.512% 0;
+  }
+  .hero h2 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 17px;
+  }
+
+  .first-hero > p {
+    font-size: 15px;
+    padding-bottom: 18px;
+  }
+  .font14 {
+    font-size: 12px;
+  }
+
+  .search-box {
+    margin-bottom: 14px;
+  }
+  /* --------------------------- Top Categories -------------------------- */
+  .head-categories > img {
+    display: none;
+  }
+
+  .head-categories h3 {
+    font-size: 22px;
+  }
+  .mid-categories img {
+    height: auto;
+    max-width: 70%;
+  }
+  .mid-categories p {
+    font-size: 2vw;
+  }
+
+  .Top-Categories {
+    padding: 47px 0 50px 0;
+  }
+  .head-categories {
+    margin-top: 0;
+    margin-bottom: 35px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .top-recipes {
+    margin-top: 67px;
+  }
+
+  /* --------------------------- Top Recipes -------------------------- */
+
+  .head-recipes {
+    display: block;
+    text-align: center;
+    width: 92%;
+  }
+  .head-recipes h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .mid-recipes {
+    width: 92%;
+  }
+
+  .socialmedia {
+    width: 13.4%;
+    margin-right: 0px;
+    padding-top: 6px;
+  }
+
+  .nav-recipes ul > li {
+    letter-spacing: 0;
+  }
+
+  .last-recipe {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .socialmedia-small {
+    /* display: flex;
+    justify-content: flex-end; */
+    width: 13%;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  .selected h5 {
+    font-size: 16px;
+  }
+  .selected > p {
+    padding-right: 0px;
+    font-size: 14px;
+  }
+  .time-people p,
+  .author p,
+  .author span {
+    font-size: 14px;
+  }
+  .rate-review > img {
+    width: 100px !important;
+    padding-right: 0px !important;
+  }
+  .card1 {
+    display: block;
+    width: 100%;
+  }
+
+  .card1 > img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: 310px;
+    object-fit: cover;
+    margin-bottom: 25px;
+  }
+
+  .detail {
+    width: 100%;
+  }
+
+  .card2,
+  .card3 {
+    display: none;
+  }
+
+  .slick-dots {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .slick-dots li button {
+    padding: 0;
+  }
+
+  .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    padding: 5px;
+    cursor: pointer;
+    color: #88b04b;
+    border: 0;
+    outline: 0;
+    background-color: #88b04b;
+    opacity: 0.4;
+    border-radius: 50%;
+  }
+  .slick-dots li button:before {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+  }
+  #slick-slide-control12 {
+    color: #88b04b !important;
+    opacity: 100;
+  }
+  .slick-dots li button:before {
+    opacity: 0.4;
+    color: #88b04b;
+  }
+
+  /* --------------------------- Recipes of the Week -------------------------- */
+  .three-recipes {
+    display: block;
+    width: 92%;
+    margin-bottom: 0;
+  }
+
+  .one-list,
+  .two-list,
+  .three-list {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .rate-review-week > img {
+    width: 15.7%;
+  }
+  .author-social-icons {
+    display: block;
+  }
+  .socialmedia-small2 {
+    width: 14%;
+  }
+  .author-week {
+    margin-bottom: 25px;
+  }
+  .author-week > img {
+    width: 5.5%;
+  }
+  .pad-list {
+    padding: 32px 24px;
+  }
+
+  /* --------------------------- Featured Recipes-------------------------- */
+
+  .featured-recipes,
+  .box-1,
+  .box-2 {
+    display: flex;
+  }
+  .feature {
+    width: 100%;
+  }
+  .box-1,
+  .box-2 {
+    width: 92%;
+  }
+  .star-feature > img {
+    width: 16% !important;
+  }
+  .socialmedia-medium {
+    width: 12%;
+    align-self: flex-end;
+  }
+  .end-socialIcons {
+    height: 91px;
+  }
+  .pad-feature {
+    padding: 25px 20px;
+  }
+
+  /* --------------------------- Top Authors  -------------------------- */
+  .top-authors {
+    padding: 50px 0;
+  }
+  .head-topAuthors > img {
+    display: none;
+  }
+  .head-topAuthors {
+    justify-content: center;
+  }
+  .head-topAuthors h3 {
+    font-size: 30px;
+  }
+
+  .mid-topAuthor img,
+  .last-topAuthor img {
+    width: 100px;
+    max-width: 100%;
+    height: 100px;
+  }
+  .mid-topAuthor p,
+  .last-topAuthor p {
+    font-size: 16px;
+  }
+  .last-topAuthor {
+    margin-bottom: 36px;
+  }
+  .view-btn {
+    margin-bottom: 0px;
+  }
+
+  /* --------------------------- How it works Section  -------------------------- */
+  .work {
+    padding-top: 50px;
+  }
+  .first-work h2 {
+    font-size: 22px;
+  }
+  .second-work {
+    flex-direction: column;
+  }
+  .recipe-work,
+  .recipe-rated,
+  .recipe-earn {
+    width: 100% !important;
+  }
+  .recipe-rated {
+    border-bottom: 1px solid #00000033;
+    border-top: 1px solid #00000033;
+    border-left: 0;
+    border-right: 0;
+  }
+  .second-work div {
+    padding: 20px;
+  }
+  .second-work h3 {
+    font-size: 18px;
+  }
+  .second-work p {
+    font-size: 15px;
+  }
+  .show-btn {
+    margin-top: 10px;
+    margin-bottom: 50px !important;
+  }
+  /* --------------------------- Top Articles  -------------------------- */
+
+  .first-article,
+  .second-article {
+    width: 95%;
+    flex-direction: column;
+    height: fit-content !important;
+  }
+  /* .first-article {
+    flex-direction: column;
+    height: auto !important;
+  } */
+  .article1,
+  .article2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 7px !important;
+  }
+  /* .article2 {
+    margin-bottom: 0px;
+  }*/
+  .green-arrow {
+    width: 3% !important;
+  }
+
+  /* --------------------------- Contact US -------------------------- */
+
+  .contact-us {
+    width: 95%;
+    padding: 50px 0;
+  }
+  .contact-us h5 {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-us h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .contact-us p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .contact-btn {
+    padding: 16px 31px;
+    margin-bottom: 0px;
+  }
+  /* --------------------------- Footer -------------------------- */
+
+  footer {
+    height: 962px;
+    justify-content: flex-start;
+    gap: 35px;
+  }
+  .links-page ul,
+  .more ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 28px;
+  }
+  .link-more {
+    width: 100%;
+  }
+  /* .link-more li {
+    margin-bottom: 20px;
+  } */
+}
